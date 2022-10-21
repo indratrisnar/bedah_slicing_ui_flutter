@@ -3,6 +3,7 @@ import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
 import 'component/item_product_coffee.dart';
 import 'component/item_service_coffee.dart';
+import 'component/item_storage_dashboard.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,13 +19,11 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-        appBar: AppBar(title: const Text('Item Product Coffee')),
+        appBar: AppBar(title: const Text('Item Storage Dashboard')),
         body: ListView(
           padding: const EdgeInsets.all(16),
           children: [
-            Center(
-              child: ItemProductCoffee(),
-            ),
+            ItemStorageDashboard(),
           ],
         ),
       ),
