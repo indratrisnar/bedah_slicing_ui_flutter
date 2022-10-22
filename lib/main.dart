@@ -1,6 +1,8 @@
+import 'package:d_chart/d_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
+import 'component/dashboard_storage_chart.dart';
 import 'component/item_product_coffee.dart';
 import 'component/item_service_coffee.dart';
 import 'component/item_storage_dashboard.dart';
@@ -19,11 +21,11 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-        appBar: AppBar(title: const Text('Item Storage Dashboard')),
+        appBar: AppBar(title: const Text('Dashboard Storage Chart')),
         body: ListView(
           padding: const EdgeInsets.all(16),
           children: [
-            ItemStorageDashboard(),
+            DashboardStorageChart(),
           ],
         ),
       ),
