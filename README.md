@@ -7,4 +7,5 @@ Episode:\
 [2. Item Product Coffee](https://www.youtube.com/watch?v=Yxzx6a-qJ_I)\
 [3. Item Storage Dashboard](https://www.youtube.com/watch?v=1mSNJ0rUT0E)\
 [4. Dashboard Dashboard Chart](https://www.youtube.com/watch?v=B1ispiUF43o)\
-[5. Dashboard Upgrade Storage](https://www.youtube.com/watch?v=LxKhY1tO1rY)
+[5. Dashboard Upgrade Storage](https://www.youtube.com/watch?v=LxKhY1tO1rY)\
+[6. Item Manage Task](https://www.youtube.com/watch?v=xijuKlBLDG0)
