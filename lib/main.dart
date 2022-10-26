@@ -8,6 +8,7 @@ import 'component/dashboard_storage_chart.dart';
 import 'component/dashboard_upgrade_storage.dart';
 import 'component/item_manage_task.dart';
 import 'component/item_meeting.dart';
+import 'component/item_meeting_room.dart';
 import 'component/item_product_coffee.dart';
 import 'component/item_service_coffee.dart';
 import 'component/item_storage_dashboard.dart';
@@ -27,16 +28,15 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Item Meeting'),
+          title: const Text('Item Meeting Room'),
         ),
         body: ListView(
           padding: const EdgeInsets.all(16),
           children: [
-            ItemMeeting(),
+            ItemMeetingRoom(),
           ],
         ),
       ),
     );
   }
 }
-
