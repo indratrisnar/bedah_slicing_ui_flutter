@@ -6,6 +6,7 @@ import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
 import 'component/dashboard_storage_chart.dart';
 import 'component/dashboard_upgrade_storage.dart';
+import 'component/item_apartment.dart';
 import 'component/item_manage_task.dart';
 import 'component/item_meeting.dart';
 import 'component/item_meeting_room.dart';
@@ -27,16 +28,18 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
+        backgroundColor: Colors.white70,
         appBar: AppBar(
-          title: const Text('Item Meeting Room'),
+          title: const Text('Item Apartment'),
         ),
         body: ListView(
           padding: const EdgeInsets.all(16),
           children: [
-            ItemMeetingRoom(),
+            ItemApartment(),
           ],
         ),
       ),
     );
   }
 }
+
