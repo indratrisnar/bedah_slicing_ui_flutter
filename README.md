@@ -11,4 +11,5 @@ Episode:\
 [6. Item Manage Task](https://www.youtube.com/watch?v=xijuKlBLDG0)\
 [7. Item Meeting](https://www.youtube.com/watch?v=x86EvbpXST4)\
 [8. Item Meeting Room](https://www.youtube.com/watch?v=iSXwAGZvMCk)\
-[9. Item Apartment](https://www.youtube.com/watch?v=3c8j_vTQucc)
+[9. Item Apartment](https://www.youtube.com/watch?v=3c8j_vTQucc)\
+[10. Item Salon Service](https://www.youtube.com/watch?v=fxUy1SqDs2M)

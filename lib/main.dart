@@ -11,6 +11,7 @@ import 'component/item_manage_task.dart';
 import 'component/item_meeting.dart';
 import 'component/item_meeting_room.dart';
 import 'component/item_product_coffee.dart';
+import 'component/item_salon_service.dart';
 import 'component/item_service_coffee.dart';
 import 'component/item_storage_dashboard.dart';
 
@@ -28,14 +29,14 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-        backgroundColor: Colors.white70,
+        backgroundColor: Colors.white.withOpacity(0.8),
         appBar: AppBar(
-          title: const Text('Item Apartment'),
+          title: const Text('Item Salon Service'),
         ),
         body: ListView(
           padding: const EdgeInsets.all(16),
           children: [
-            ItemApartment(),
+            ItemSalonService(),
           ],
         ),
       ),
