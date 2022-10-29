@@ -12,4 +12,5 @@ Episode:\
 [7. Item Meeting](https://www.youtube.com/watch?v=x86EvbpXST4)\
 [8. Item Meeting Room](https://www.youtube.com/watch?v=iSXwAGZvMCk)\
 [9. Item Apartment](https://www.youtube.com/watch?v=3c8j_vTQucc)\
-[10. Item Salon Service](https://www.youtube.com/watch?v=fxUy1SqDs2M)
+[10. Item Salon Service](https://www.youtube.com/watch?v=fxUy1SqDs2M)\
+[11. Item Food Catalog](https://www.youtube.com/watch?v=wUsSZCFM1rA)
