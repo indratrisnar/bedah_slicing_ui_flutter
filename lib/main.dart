@@ -7,6 +7,7 @@ import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'component/dashboard_storage_chart.dart';
 import 'component/dashboard_upgrade_storage.dart';
 import 'component/item_apartment.dart';
+import 'component/item_food_cart.dart';
 import 'component/item_food_catalog.dart';
 import 'component/item_manage_task.dart';
 import 'component/item_meeting.dart';
@@ -32,14 +33,12 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.white.withOpacity(0.8),
         appBar: AppBar(
-          title: const Text('Item Food Catalog'),
+          title: const Text('Item Food Cart'),
         ),
         body: ListView(
           padding: const EdgeInsets.all(16),
           children: [
-            Center(
-              child: ItemFoodCatalog(),
-            ),
+            ItemFoodCart(),
           ],
         ),
       ),
