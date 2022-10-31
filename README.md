@@ -14,4 +14,5 @@ Episode:\
 [9. Item Apartment](https://www.youtube.com/watch?v=3c8j_vTQucc)\
 [10. Item Salon Service](https://www.youtube.com/watch?v=fxUy1SqDs2M)\
 [11. Item Food Catalog](https://www.youtube.com/watch?v=wUsSZCFM1rA)\
-[12. Item Food Cart](https://www.youtube.com/watch?v=D_8BpUP53Vg)
+[12. Item Food Cart](https://www.youtube.com/watch?v=D_8BpUP53Vg)\
+[13. Item Chat](https://www.youtube.com/watch?v=HNq4YC5MlHc)

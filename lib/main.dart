@@ -7,6 +7,7 @@ import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'component/dashboard_storage_chart.dart';
 import 'component/dashboard_upgrade_storage.dart';
 import 'component/item_apartment.dart';
+import 'component/item_chat.dart';
 import 'component/item_food_cart.dart';
 import 'component/item_food_catalog.dart';
 import 'component/item_manage_task.dart';
@@ -31,14 +32,14 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-        backgroundColor: Colors.white.withOpacity(0.8),
+        backgroundColor: Colors.white,
         appBar: AppBar(
-          title: const Text('Item Food Cart'),
+          title: const Text('Item Chat'),
         ),
         body: ListView(
           padding: const EdgeInsets.all(16),
           children: [
-            ItemFoodCart(),
+            ItemChat(),
           ],
         ),
       ),
