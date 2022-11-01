@@ -13,6 +13,7 @@ import 'component/item_food_catalog.dart';
 import 'component/item_manage_task.dart';
 import 'component/item_meeting.dart';
 import 'component/item_meeting_room.dart';
+import 'component/item_popular_furniture.dart';
 import 'component/item_product_coffee.dart';
 import 'component/item_salon_service.dart';
 import 'component/item_service_coffee.dart';
@@ -34,12 +35,12 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
-          title: const Text('Item Chat'),
+          title: const Text('Item Popular Furniture'),
         ),
         body: ListView(
           padding: const EdgeInsets.all(16),
           children: [
-            ItemChat(),
+            ItemPopularFurniture(),
           ],
         ),
       ),
