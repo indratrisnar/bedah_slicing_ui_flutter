@@ -16,6 +16,7 @@ import 'component/item_meeting_room.dart';
 import 'component/item_popular_furniture.dart';
 import 'component/item_product_coffee.dart';
 import 'component/item_salon_service.dart';
+import 'component/item_schedule.dart';
 import 'component/item_service_coffee.dart';
 import 'component/item_storage_dashboard.dart';
 
@@ -35,12 +36,14 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
-          title: const Text('Item Popular Furniture'),
+          title: const Text('Item Schedule'),
         ),
         body: ListView(
           padding: const EdgeInsets.all(16),
           children: [
-            ItemPopularFurniture(),
+            Center(
+              child: ItemSchedule(),
+            ),
           ],
         ),
       ),

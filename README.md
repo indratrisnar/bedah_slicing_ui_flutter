@@ -16,4 +16,5 @@ Episode:\
 [11. Item Food Catalog](https://www.youtube.com/watch?v=wUsSZCFM1rA)\
 [12. Item Food Cart](https://www.youtube.com/watch?v=D_8BpUP53Vg)\
 [13. Item Chat](https://www.youtube.com/watch?v=HNq4YC5MlHc)\
-[14. Item Popular Furniture](https://www.youtube.com/watch?v=1a750up3iXM)
+[14. Item Popular Furniture](https://www.youtube.com/watch?v=1a750up3iXM)\
+[15. Item Schedule](https://www.youtube.com/watch?v=hEMtu8n2gKE)
