@@ -8,6 +8,7 @@ import 'component/dashboard_storage_chart.dart';
 import 'component/dashboard_upgrade_storage.dart';
 import 'component/item_apartment.dart';
 import 'component/item_chat.dart';
+import 'component/item_course.dart';
 import 'component/item_food_cart.dart';
 import 'component/item_food_catalog.dart';
 import 'component/item_manage_task.dart';
@@ -34,16 +35,14 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.white70,
         appBar: AppBar(
-          title: const Text('Item Schedule'),
+          title: const Text('Item Course'),
         ),
         body: ListView(
           padding: const EdgeInsets.all(16),
           children: [
-            Center(
-              child: ItemSchedule(),
-            ),
+            ItemCourse(),
           ],
         ),
       ),
