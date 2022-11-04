@@ -20,6 +20,7 @@ import 'component/item_salon_service.dart';
 import 'component/item_schedule.dart';
 import 'component/item_service_coffee.dart';
 import 'component/item_storage_dashboard.dart';
+import 'component/item_top_food.dart';
 
 void main() {
   runApp(const MyApp());
@@ -37,12 +38,12 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.white70,
         appBar: AppBar(
-          title: const Text('Item Course'),
+          title: const Text('Item Top Food'),
         ),
         body: ListView(
           padding: const EdgeInsets.all(16),
           children: [
-            ItemCourse(),
+            ItemTopFood(),
           ],
         ),
       ),
