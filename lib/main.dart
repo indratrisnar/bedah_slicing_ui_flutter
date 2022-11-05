@@ -16,6 +16,7 @@ import 'component/item_meeting.dart';
 import 'component/item_meeting_room.dart';
 import 'component/item_popular_furniture.dart';
 import 'component/item_product_coffee.dart';
+import 'component/item_renting_home.dart';
 import 'component/item_salon_service.dart';
 import 'component/item_schedule.dart';
 import 'component/item_service_coffee.dart';
@@ -36,18 +37,16 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-        backgroundColor: Colors.white70,
         appBar: AppBar(
-          title: const Text('Item Top Food'),
+          title: const Text('Item Renting Home'),
         ),
         body: ListView(
           padding: const EdgeInsets.all(16),
           children: [
-            ItemTopFood(),
+            ItemRentingApp(),
           ],
         ),
       ),
     );
   }
 }
-
