@@ -11,6 +11,7 @@ import 'component/item_chat.dart';
 import 'component/item_course.dart';
 import 'component/item_food_cart.dart';
 import 'component/item_food_catalog.dart';
+import 'component/item_furniture.dart';
 import 'component/item_manage_task.dart';
 import 'component/item_meeting.dart';
 import 'component/item_meeting_room.dart';
@@ -38,14 +39,15 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-        backgroundColor: Colors.greenAccent,
         appBar: AppBar(
-          title: const Text('Item Popular Food'),
+          title: const Text('Item Furniture'),
         ),
         body: ListView(
           padding: const EdgeInsets.all(16),
           children: [
-            ItemPopularFood(),
+            Center(
+              child: ItemFurniture(),
+            ),
           ],
         ),
       ),
