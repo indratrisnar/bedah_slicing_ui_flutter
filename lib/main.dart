@@ -25,6 +25,7 @@ import 'component/item_service_coffee.dart';
 import 'component/item_storage_dashboard.dart';
 import 'component/item_top_food.dart';
 import 'component/most_popular_item_food.dart';
+import 'component/nearby_real_estate.dart';
 
 void main() {
   runApp(const MyApp());
@@ -41,12 +42,12 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Most Popular Item Food'),
+          title: const Text('Nearby Real Estate'),
         ),
         body: ListView(
           padding: const EdgeInsets.all(16),
           children: [
-            MostPopularItemFood(),
+            NearbyRealEstate(),
           ],
         ),
       ),
